@@ -11,7 +11,7 @@ body{
 
 header{
     background-color:rgba(229, 84, 115, 0.10); 
-    width: 1920px;
+    width: 1900px;
     height: 850px;
     /* max-width: 800px; */
     margin: 0;
@@ -205,7 +205,7 @@ main .flower-name {
 
 
 .deal{
-    width: 1922px;
+    width: 1900px;
     height: 620px;
     flex-shrink: 0;
     border-radius: 8px;
@@ -247,4 +247,136 @@ main .flower-name {
     height: 420px;
     flex-shrink: 0;
     margin: 100px 429px 100px 0px;
+}
+
+.instagram-writes{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 594px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    margin-left: 663px;
+}
+
+.instagram-image{
+    /* margin-left: 240px; */
+    display: flex;
+    /* width: auto; */
+    /* margin-right: 240px; */
+    /* justify-content: space-evenly; */
+    /* gap:200px; */
+    margin-bottom: 128px;
+    /* gap:200px; */
+    padding-right: 240px;
+    padding-left: 240px;
+    gap:24px;
+}
+
+
+
+
+.last{
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    background-image: url("../Images/Rectangle\ 9.png");
+    margin: 0px 240px 128px 240px ;
+    
+}
+
+.last-title{
+    padding-top: 128px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+
+.last-pera{
+    color: rgba(39, 39, 39, 0.60);
+    /* text-align: center; */
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 594px;
+   
+    margin-left: 604px; 
+    margin-bottom: 48px;
+}
+
+.last-type{
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    margin-left: 287px;
+    padding-left: 22px;
+    border: none;
+    margin-right: 16px;
+
+}
+
+
+.footer-main{
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+}
+
+.footer-head{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 831px;
+    padding-top: 128px;
+}
+
+#footer-head{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-para{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 625px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    padding-left: 648px;
+}
+
+.footer-last{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
