@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+}
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+header{
+    background-color:rgba(229, 84, 115, 0.10); 
+    width: 1920px;
+    height: 850px;
+    /* max-width: 800px; */
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.header-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 720;
+    width: 800px;
+    font-style: normal;
+    margin-bottom: 32px;
+    font-family: Lato;
+}
+
+
+.btn-primary{
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+   
+}
+
+.header .header-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 630px;
+    margin-bottom: 32px;
+}
+
+.nav-title{
+    margin-top: 197px;
+    margin-left: 240px;
+    margin-bottom: 130px;
+}
+
+header .header-image{
+    margin-right: 200px;
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.product{
+    margin-top: 178px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+
+main .product-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+main .product-para{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: 24px;
+    width: 594px;
+    text-align: center;
+    margin-left: 423px;
+
+}
+
+
+
+
+
+
+.flower-pic{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap:24px;
+}
+
+.pink{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+ width: 310px;
+height: 428px;
+    flex-shrink: 0;
+    padding: 110px 78px 0px 76px;
+}
+
+.sky{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 370px;
+    height: 370px;
+    
+    flex-shrink: 0;
+    padding: 110px 47px 60px 47px;
+}
+
+.green{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 314px;
+    height: 471px;
+    flex-shrink: 0;
+    padding: 67px 75px 0px 75px;
+}
+
+
+main .flower-name {
+    display: flex;
+    justify-content: space-around;
+    color: #272727;
+    /* text-align: center; */
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    text-decoration: none;
+    text-decoration-line: underline;
+    margin-top: 32px;
+    margin-bottom: 128px;
+    
+
+}
+
+.flower-name li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.box{
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 128px;
+    
+
+}
+
+
+
+.pictures{
+    padding-top: 86px;
+    padding-left: 317px;
+    padding-right: 232px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.write{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 175px;
+    padding-right: 175px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px; /* 145.833% */
+    margin-top: 24px;
+}
+
+
+
+.deal{
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 128px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.deal-description{
+    padding: 230px 0px 162px 395px;
+    text-align: center;
+}
+#offs{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deal .deal-writes{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 594px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.deal-image{
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+    margin: 100px 429px 100px 0px;
+}
